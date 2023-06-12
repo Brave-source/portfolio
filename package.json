@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start && next export",
     "lint": "next lint"
   },
   "dependencies": {
@@ -13,6 +13,17 @@
     "eslint-config-next": "13.4.5",
     "next": "13.4.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "next-dark-mode": "^3.0.0",
+    "framer-motion": "^7.6.17",
+    "react-icons": "^4.7.1",
+    "react-image-gallery": "^1.2.11",
+    "react-modal": "^3.16.1",
+    "styled-components": "^5.3.6",
+    "styled-normalize": "^8.0.7"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "8.5.0",
+    "prettier": "^2.8.0"
   }
 }
