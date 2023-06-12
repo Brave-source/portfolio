@@ -1,10 +1,10 @@
 import React from 'react';
 import {Section, SectionDivider, SectionTitle} from '../../styles/GlobalComponents';
 import { GridContainer } from './ProjectsStyles';
-import {ExternalLinks} from "../Cards/CardStyles";
+import { ExternalLinks } from "../Cards/CardStyles";
 
-import {projects} from '../../constants/constants';
-import ProjectCard from "../Cards/ProjectCard";
+import { projects } from '../../constants/constants';
+import ProjectCard from "../Cards/ProjectCards";
 
 const Projects = () => {
   return (
